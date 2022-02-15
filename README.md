@@ -11,4 +11,4 @@ All FLNC reads were mapped to the B. rapa reference genome using minimap2 (versi
 ## Alignment of FL isoform to the annotated genes and Statistics information
 `sh 03.Align_FLisoformToGene.sh`
 
-All collapsed Full-lenght isoform were aligned to annotated genes using SHELL script.
+All collapsed Full-lenght isoform were aligned to annotated genes using SHELL script and statistics information.
