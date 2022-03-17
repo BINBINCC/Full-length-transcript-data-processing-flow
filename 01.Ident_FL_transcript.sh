@@ -1,5 +1,5 @@
 ##Get the Circular Consensus Calling reads
-ccs subreads.bam ccs.bam  --noPolish --min-passes 1
+ccs subreads.bam ccs.bam  --noPolish --min-passes 3
 ##Rmove the primer and barcode
 lima ccs.bam barcoded_primers.fasta demux.ccs.bam --isoseq --no-pbi --peek-guess
 ##Rapid concatemer identificaton and removal
